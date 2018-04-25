@@ -3,23 +3,31 @@ The success of developer question and answer (Q&A) websites attracts massive use
 
 
 parse.py - use frequenly used PHP methods to narrow down PHP posts
+
 guides_extract.py - create templates
+
 cand.py - create tip candidates
 
 <b>under dataset folder, they are our dateset in this research</b>
 
 para_tip.pos - labelled paragraph level tip
+
 para_tip.neg - non tips
 
 sent_tip.pos - labelled sentence level tip
+
 sent_tip.neg - non tips
 
 sise_fs.py - create baseline features
+
 sise_clf.py - baseline classification
 
 deeptip_fs.py - create features for DEEPTip-F
+
 deeptip_clf.py - DEEPTip-F classification
 
 deeptip_w2v.py - DEEPTip-W2V
+
 shcnn_seq2_bown.py - DEEPTip-OH
+
 shcnn_3unsemb.py - DEEPTip-SEMI
